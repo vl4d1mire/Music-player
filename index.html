@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+</head>
+<body>
+<div class="player-container">
+<!--    Song   -->
+    <div class="img-container">
+        <img src="./assets/images/photo-1615073009397-3cad168d1e84.jpg" alt="">
+    </div>
+    <h2 id="title">Title</h2>
+    <h3 id="artist">Artist</h3>
+    <audio src="assets/music/Elysium%20–%20The%20Lyndhurst%20Orchestra,%20Hans%20Zimmer,%20Lisa%20Gerrard%20.mp3" controls hidden></audio>
+<!--    Progress   -->
+    <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="duration-wrapper">
+            <span id="current-time">0:00</span>
+            <span id="duration">2:04</span>
+        </div>
+    </div>
+<!--    Controls   -->
+    <div class="player-controls">
+        <i class="fas fa-backward" id="prev" title="Previous"></i>
+        <i class="fas fa-play" id="play" title="Play"></i>
+        <i class="fas fa-forward" id="next" title="Next"></i>
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
