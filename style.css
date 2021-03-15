@@ -66,8 +66,8 @@ h3  {
     background: #242323;
     border-radius: 5px;
     height: 100%;
-    width: 50%;
-    transition: width 1s linear;
+    width: 0%;
+    transition: width 0.1s linear;
 }
 
 .duration-wrapper {
